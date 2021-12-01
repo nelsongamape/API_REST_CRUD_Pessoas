@@ -43,7 +43,7 @@ public class PersonServiceTest {
     private MessageResponseDTO createExpectedMessageResponse(Long id) {
         return MessageResponseDTO
                 .builder()
-                .message("Created person with ID " + id)
+                .message("Cadastrada pessoa com o ID " + id)
                 .build();
     }
 }
